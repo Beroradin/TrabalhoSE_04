@@ -34,11 +34,13 @@ Em ciclos contínuos, o sistema:
 - Os botões funcionam com debounce por software e alternam o estado dos alertas
 
 ## :eyes: Observações
-Foi utilizada a biblioteca lwIP para implementação do servidor web
-O display SSD1306 é controlado via I²C
-O buzzer é controlado via PWM para permitir ajuste de volume
-O projeto implementa debounce para evitar múltiplas detecções em um único pressionamento de botão
-O projeto funciona como um sistema bare-metal (sem sistema operacional)
+- Foi utilizada a biblioteca lwIP para implementação do servidor web
+- O display SSD1306 é controlado via I²C
+- O buzzer é controlado via PWM para permitir ajuste de volume
+- O projeto implementa debounce para evitar múltiplas detecções em um único pressionamento de botão
+- O projeto funciona como um sistema bare-metal (sem sistema operacional)
+- É utilizada uma biblioteca externa para o DHT11
+- É recomendável a utilização do pico SDK 1.5.1
 
 ## :camera: GIF mostrando o funcionamento do programa na placa Raspberry Pi Pico W
 <p align="center">
