@@ -1,4 +1,4 @@
-#✨ Trabalho - Sistema de Monitoramento Ambiente com Raspberry Pi Pico W
+# ✨ Trabalho - Sistema de Monitoramento Ambiente com Raspberry Pi Pico W
 <p align="center"> Repositório dedicado ao sistema de monitoramento ambiental utilizando a placa Raspberry Pi Pico W, que coleta dados de temperatura, umidade e luminosidade, exibindo-os em um display OLED e disponibilizando-os via servidor web.</p>
 
 ## :clipboard: Apresentação da tarefa
